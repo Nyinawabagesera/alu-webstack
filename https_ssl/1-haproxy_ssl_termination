@@ -47,5 +47,5 @@ frontend clickviral-frontend-https
 
 backend clickviral-backend
         balance roundrobin
-        server 6069-web-01 18.234.237.17:80 check
-        server 6069-web-02 100.26.137.147:80 check
+        server 6069-web-01 54.90.67.207:80 check
+        server 6069-web-02 107.20.122.137:80 check
