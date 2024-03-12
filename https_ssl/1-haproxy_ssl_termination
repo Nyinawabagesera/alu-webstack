@@ -41,7 +41,7 @@ frontend shacky-frontend
         default_backend shacky-backend
 
 frontend shacky-frontend-https
-        bind *:443 ssl crt /etc/haproxy/cert/www.shacky.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.shacky.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend shacky-backend
 
